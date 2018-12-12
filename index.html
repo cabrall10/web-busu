@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Mobi Campos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/fullpage.css" />
@@ -17,18 +17,54 @@
 </head>
 
 <body>
-    <nav id = "navbar" class="navbar navbar-collapse-sm sticky-top navbar-light">
-        <a id = "logo" class="navbar-brand" href="#">
-            <img src="./img/logo.svg" width="20%" height="20%" class="img-responsive d-inline-block align-top" alt="">
-        </a>
-    </nav>
+    <nav id="navbar" class="navbar sticky-top navbar-expand-md navbar-info">
+        <!-- Logo -->
+        <a href="" class="navbar-brand text-light">MobiCampos</a>
+        <!-- Menu Hamburguer -->
+        <button class="navbar-toggler btn-dark" data-toggle="collapse" 
+        data-target="#nav-target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       <!-- formulário -->
+        <div class="collapse navbar-collapse" id="nav-target">
+          <form class="form-inline ml-auto">
+            <input type="text" class="form-control"
+            placeholder="pesquisar...">
+            <button class="btn btn-outline-info">ok</button>
+          </form>
+        </div>
+    </nav> 
 
     <div id="fullpage">
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
-    </div>
+            <ul id="myMenu">
+                    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
+                    <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
+                </ul>
+        <div class="section"><div id="page1" >
+            <button type="button" class="btn btn-info">74546546</button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, 
+                error qui dolor repellendus quidem dolore nemo assumenda enim ex 
+                facilis deserunt doloremque animi obcaecati corporis 
+        </div></div>
+        
+        <div class="section"><div id="page2" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, 
+                    error qui dolor repellendus quidem dolore nemo assumenda enim ex 
+                    facilis deserunt doloremque animi obcaecati corporis 
+            </div></div>
+            <div class="section"><div id="page3" >
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, 
+                        error qui dolor repellendus quidem dolore nemo assumenda enim ex 
+                        facilis deserunt doloremque animi obcaecati corporis 
+                </div></div>
+                <div class="section"><div id="page4" >
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, 
+                            error qui dolor repellendus quidem dolore nemo assumenda enim ex 
+                            facilis deserunt doloremque animi obcaecati corporis 
+                    </div></div>
     
+    <script src="./js/pagination.js"></script>
 </body>
 </html>
