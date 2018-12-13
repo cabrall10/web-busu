@@ -1,8 +1,26 @@
 new fullpage('#fullpage', {
-	sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
-    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+    licenseKey: null,
+	//Menu lateral indicativo das paginas
     menu: '#myMenu',
-    navigation: "true",
-    navigationPosition: "right"
-    
+    //#href que será mostrado na url ao entrar em uma seção
+	anchors: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
+    navigation: true,
+    //Posição do menu lateral
+    navigationPosition: 'right',
+    //Legenda para as páginas, no menu lateral
+	navigationTooltips: ['Principal', 'Features', 'Sobre', 'Parcerias', 'Aplicação'],
+	showActiveTooltip: true,
+    slidesNavigation: true,
+    //Posição do 'carousel'
+    slidesNavPosition: 'bottom',
+    //Arrastar com o mouse ou dedo (Necessita de licenseKey)
+    dragAndMove: true,
+    //Loop nos slides do carousel
+    loopHorizontal: true,
+    //Velocidade de scroll
+    scrollingSpeed: 700,
+    //Scroll pelo teclado
+    keyboardScrolling: true,
+	//Setas direcionais passam slides do carousel
+    controlArrows: true,
 });
