@@ -67,3 +67,30 @@
 #page1 .options > img {
 	vertical-align: middle;
 }
+
+/* desabilita as div's e aplica outras configurações
+   enquanto tamanho máximo=768px*/
+@media screen and (max-width: 768px) {
+    #right { 
+        display: none;
+    }
+
+    #img-appStore { 
+        display: none; 
+    }
+
+    #left {
+        font-size: 73%;
+        margin-right: -60%;
+        text-align: justify;     
+    }
+
+    #left > h2 {
+        letter-spacing: 2px;
+        margin-bottom: 12%;
+        margin-top: -20%;
+        margin-left: 0%;
+        text-align: center;    
+    }
+}
+  
