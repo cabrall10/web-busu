@@ -51,11 +51,6 @@
 	padding-right: 30%;
 }
 
-#rigth > img {
-    padding-right: 30%;
-    width: 100%;
-}
-
 #page1 .options > p {
 	margin-top: 500px;
 }
@@ -76,7 +71,8 @@
     }
 
     #img-appStore { 
-        display: none; 
+        padding-top: 10%;
+        text-align: center;
     }
 
     #left {
