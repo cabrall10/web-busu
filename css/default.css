@@ -87,7 +87,10 @@
 	border-radius: 0, 100px, 100px, 0 !important;
 }
 
-  
+.featuresCardImg{
+	width: 75%;
+}  
+
 .subTitulo{
     margin-left:3%;
     margin-right:3%;
